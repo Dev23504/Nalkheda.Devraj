@@ -1,0 +1,419 @@
+
+
+.main{
+    /* border: solid red 2px; */
+    height: 600vh;
+    width: 98vw;
+    background-color: orange;
+}
+a{
+    color: black;
+}
+
+.first{
+    /* border: solid black; */
+    height: 45vh;
+
+}
+.maa{
+ /* border: solid rebeccapurple; */
+ display: flex;
+ justify-content: center;
+}
+
+.A{
+    /* border: solid blue; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.om{
+    /* border: solid; */
+     height: 23vh;
+     width: 25vw;
+     background-image: url(trishul_mata_jii-removebg-preview.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+.welcome{
+    /* border: solid; */
+    height: 23vh;
+    width: 50vw;
+    text-align: center;
+}
+
+
+.second{
+    /* border: solid blue; */
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.map{
+    /* border: solid black; */
+    height: 45vh;
+    width:  25vw;
+
+}
+
+.re{
+    /* border: solid blue; */
+    height: 45vh;
+    width:  25vw;
+}
+
+.rel{
+    /* border: solid red 2px; */
+    height: 6vh;
+    
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    
+    
+}
+ a{
+    text-decoration: none;
+    
+}
+.aff{
+    /* border: solid red 2px; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+}
+
+
+.lo{
+    /* border: solid  blue 2px; */
+    height: 7vh;
+    
+}
+.loc{
+    /* border: solid black 2px; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.st{
+    /* border: solid black 2px; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+   
+}
+
+
+.nal{
+        /* border: solid red 2px; */
+        height: 45vh;
+        width: 25vw;
+        background-image:url(nalkheda.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.third{
+     /* border: solid purple; */
+     
+     height: 50vh;
+     display: flex;
+     justify-content: space-around;
+}
+
+
+
+
+.lakh{
+    /* border: solid red 2px; */
+    height: 35vh;
+    width: 45vw;
+    font-size: larger;
+  
+     
+}
+
+.river{
+    /* border: solid red 2px; */
+    height: 45vh;
+    width: 15vw;
+    background-image: url(lakhundar\ river\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.four{
+    /* border: solid purple; */
+     
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.history{
+    /* border: solid red 2px; */
+    height: 33vh;
+    width: 50vw;
+    
+}
+
+.dar{
+    width: 50vw;
+    height: 10vh;
+    border: solid;
+}
+
+    .mandir{
+        /* border: solid red 2px; */
+        height: 42vh;
+        width: 50vw;
+        display: flex;
+        align-items: end;
+    }
+
+    .coridor{
+        /* border: solid red 2px; */
+        height: 30vh;
+        width: 25vw;
+        background-image: url(coridor.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .shree{
+        /* border: solid red 2px; */
+        height: 30vh;
+        width: 22vw;
+        background-image: url(shree.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain
+    }
+
+    .visi{
+        /* border: solid red 2px; */
+        height: 50vh;
+        width: 97.8vw;
+        display: flex;
+    }
+    
+        .time{
+            /* border: solid red 2px; */
+            height: 30vh;
+            width: 50vw;
+            display: flex;
+           
+        }
+    
+        .visit{
+            /* border: solid red 2px; */
+            height: 10vh;
+            width: 50vw;
+            text-align: center;
+        }
+
+        .devi{
+            /* border: solid red 2px; */
+            height: 50vh;
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    
+
+        .Deviji{
+            /* border: solid red 2px; */
+            height: 45vh;
+            width: 22vw;
+            background-image: url(deviji.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover
+        }
+        .Devijii{
+            /* border: solid red 2px; */
+            height: 45vh;
+            width: 22vw;
+            background-image: url(devijii.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover
+        }
+
+
+        .five{
+            /* border: solid red 2px; */
+            height: 50vh;
+            width: 97.8vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+.havan{
+    /* border: solid; */
+    height: 40vh;
+    width: 30vw;
+    background-image: url(anushthan.jpeg);
+    background-size: cover;
+
+}    
+
+.six{
+    /* border: solid red 2px; */
+    height: 80vh;
+    width: 97.8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.darshn{
+    
+    /* border: solid; */
+    height: 50vh;
+    width: 20vw;
+    
+    background-image: url(deviji.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.QR{
+    
+    /* border: solid; */
+    height: 60vh;
+    width: 20vw;
+    
+    background-image: url(QR.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.seven{
+    /* border: solid red 2px; */
+    height: 30vh;
+    width: 97.8vw;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* text-align: center; */
+    flex-direction: column;
+}
+/* .fb{ 
+    /* border: solid; */
+    /* height:  6vh;
+    width: 3vw;
+    background-image: url(fb-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+/* } */ 
+/* .in{
+    border: solid;
+    height:  7vh;
+    width: 3vw;
+    background-image: url(insta-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.id{
+    /* border: solid; */
+    height:  7vh;
+    width: 25vw;
+   
+    
+    
+   
+}
+
+.insta{
+    /* border: solid; */
+    width: 90vw;
+    height: 20vh;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.othertempl{
+    /* border: solid; */
+    height: 80vh;
+    width: 97.8vw;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    text-align: center;
+}
+
+.frontman{
+    /* border: solid; */
+    height: 50vh;
+    width: 97.8vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.SA{
+    /* border: solid red; */
+    height: 49vh;
+    width: 22vw;
+    background-image: url(SHREENATH.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.SB{
+    /* border: solid red; */
+    height: 49vh;
+    width: 22vw;
+
+    background-image: url(SHREENATH.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+
+.contact{
+    /* border: solid; */
+    height: 30vh;
+    width: 30vw;
+    
+
+}
+.int{
+    /* border: solid; */
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    
+    
+
+}
+.ii{
+    width: 5vw;
+}
+
+
+.shoping{
+    /* border: solid; */
+    height: 40vh;
+    width: 97.8vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+      font-size: small;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .first{
+        /* border: solid black; */
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a{
+        font-size: small;
+    }
+
+    .A{
+        font-size: small;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .second{
+        
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+    .map{
+        height: 10vh;
+        width: 20vw;
+    }
+  }

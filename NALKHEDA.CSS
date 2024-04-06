@@ -1,0 +1,323 @@
+.main{
+    background-color: rgb(252, 174, 30);
+
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.first{
+
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+}
+.maa{
+    /* border: solid red; */
+    background-color: rgb(252, 174, 30);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.A{
+    /* border: solid red; */
+    background-color: rgb(232, 227, 218);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.second{
+
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.nal{
+    /* border: solid red 2px; */
+    height: 250px;
+    width: 260px;
+    background-image:url(nalkheda\ copy.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.third{
+
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.four{
+
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mandir{
+    /* border: solid red 2px; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coridor{
+    /* border: solid red 2px; */
+    height: 200px;
+    width: 300px;
+    background-image: url(coridor.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shree{
+    /* border: solid red 2px; */
+    height: 200px;
+    width: 300px;
+    background-image: url(shree.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+
+.visi{
+    /* border: solid red 2px; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .time{
+        /* border: solid red 2px; */
+        height: 30vh;
+        width: 50vw;
+        display: flex;
+        flex-wrap: wrap;
+
+       
+    }
+   
+
+    .visit{
+        /* border: solid red 2px; */
+        height: 10vh;
+        width:28%;
+        text-align: center; 
+    }
+    pre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .devi{
+        /* border: solid red 2px; */
+        height: 50vh;
+        width: 50%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        justify-content: space-around;
+         flex-wrap: wrap;   
+    }
+
+
+    .Deviji{
+        /* border: solid red 2px;    */
+        height: 250px;
+        width: 250px;
+        background-image: url(deviji.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain
+        
+    }
+    .Devijii{
+        /* border: solid red 2px;   */
+        height: 250px;
+        width: 250px;
+        background-image: url(devijii.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain
+        
+        
+    }
+
+
+.five{
+        /* border: solid red 2px; */
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+.havan{
+/* border: solid; */
+height: 190px;
+width: 310px;
+background-image: url(anushthan\ copy.jpeg);
+background-size: contain;
+background-repeat: no-repeat;
+
+}    
+
+.six{
+    /* border: solid red 2px; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.darshn{
+    
+    /* border: solid; */
+    height: 310px;
+    width: 300px;
+    
+    background-image: url(deviji.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.QR{
+    
+    /* border: solid; */
+    height: 310px;
+    width: 200px;
+    
+    background-image: url(QR.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.othertempl{
+    /* border: solid; */
+    height: auto;
+    width: auto;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    text-align: center;
+}
+
+.frontman{
+    /* border: solid; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.SA{
+    /* border: solid red; */
+    height: 310px;
+    width: 280px;
+    background-image: url(SHREENATH.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.SB{
+    /* border: solid red; */
+    height: 310px;
+    width: 280px;
+
+    background-image: url(shreenathjii.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+
+.login{
+    /* border: solid; */
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#btn1{
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+  
+
+}
+#btn2{
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+  
+
+}
+
+.shivaji{
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+
+}
+
+.shivajii{
+     /* border: solid; */
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+
+
+}
+.shiva{
+    height: 310px;
+    width: 200px;
+    /* border: solid; */
+    background-image: url(shivajii.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+
+}
+
