@@ -62,7 +62,7 @@
                     <!-- Modal content -->
                     
                    <div class="modal-content1">
-                      <form class="signUp">
+                      <form class="signUp" id="signUp">
                           <span class="close">&times;</span>
                            <h1>SignUp</h1>
                            <label for="text"><b>UserName</b></label><br>
@@ -82,7 +82,8 @@
                             <br>
                           <div class="clearfix">
                               <!-- <button type="button" id="calt" class="close">Cancel</button> -->
-                              <button type="submit" id="SignUp" class="snb btn1" onclick="signUp()">Sign Up</button>
+                              <!-- <button type="submit" id="SignUp" class="snb btn1" onclick="signUp()">Sign Up</button> -->
+                              <input type="submit" class="snb "  id="SignUp">
                            </div>
                       </form>
                   </div>
@@ -92,7 +93,7 @@
                     <!-- Modal content -->
                     <div class="modal-content2">
                        
-                      <form class="signIn">
+                      <form class="signIn" id="SignIn">
                             <span class="close2">&times;</span>
                             
                             <h1>SignIn</h1>
@@ -108,7 +109,8 @@
                         
                             <div class="clearfix2">
                                 <!-- <button type="button" id="calt" class="close2">Cancel</button> -->
-                                <button type="submit" class="snb "  id="SignIn" onclick="signIn()">Sign In</button>
+                                <!-- <button type="submit" class="snb "  id="SignIn" onclick="signIn()">Sign In</button> -->
+                                <input type="submit" class="snb "  id="SignIn">
                             </div>
                       </form>
                       
@@ -190,7 +192,7 @@
          <br><br>
         <div class="four">
 
-            <div><a href=""><h3>History:-</h3></a> <div class="history"><b>मध्यप्रदेश में तीन मुखों वाली त्रिशक्ति माता बगलामुखी का यह मंदिर आगर जिले की <br>तहसील नलखेड़ा में लखुंदर नदी के किनारे स्थित है। द्वापर युगीन यह मंदिर अत्यंत चमत्कारिक है। <br> यहाँ देशभर से शैव और शाक्त मार्गी साधु-संत तांत्रिक अनुष्ठान के लिए आते रहते हैं।<br>
+            <div><a href=""><h3 class="his">History:-</h3></a> <div class="history"><b>मध्यप्रदेश में तीन मुखों वाली त्रिशक्ति माता बगलामुखी का यह मंदिर आगर जिले की <br>तहसील नलखेड़ा में लखुंदर नदी के किनारे स्थित है। द्वापर युगीन यह मंदिर अत्यंत चमत्कारिक है। <br> यहाँ देशभर से शैव और शाक्त मार्गी साधु-संत तांत्रिक अनुष्ठान के लिए आते रहते हैं।<br>
 
                 इस मंदिर में माता बगलामुखी के  अतिरिक्त माता लक्ष्मी, कृष्ण, हनुमान, भैरव तथा सरस्वती भी विराजमान हैं। <br> इस मंदिर की स्थापना महाभारत में विजय पाने के लिए भगवान कृष्ण के निर्देश पर महाराजा युधि‍ष्ठिर ने की थी। <br>मान्यता यह भी है कि यहाँ की बगलामुखी प्रतिमा स्वयंभू है</b>
             </div>
@@ -296,59 +298,89 @@
       
       <script>
    
-        //  signUp
+         // signUp
+  const myForm =document.getElementById("myModal")
+        console.log(myForm)
+    
+        myForm.addEventListener('submit',saveData)
         
-          function signUp() {
-          const username = document.getElementById("signupUsername").value;
-          const email = document.getElementById("signupEmail").value;
-          const password = document.getElementById("signupPassword").value;
-          const confirmPassword = document.getElementById('cp').value;
-        
-        
-          if (password !== confirmPassword) {
-              alert('Passwords do not match. Please enter matching passwords.');
-               return;
-              }
-          // Check if the username already exists in local storage
-          if (localStorage.getItem(username)) {
-            alert("Username already exists. Please choose a different one.");
+        function saveData(e){
+            e.preventDefault()
+            const userName = document.getElementById("signupUsername").value;
+            const email = document.getElementById("signupEmail").value;
+            const password = document.getElementById("signupPassword").value;
+            const confirmPassword = document.getElementById('cp').value;
+            
+
+            if (password !== confirmPassword) {
+            alert('Passwords do not match. Please enter matching passwords.');
             return;
-          }
-        
-          // Save user data to local storage
-          localStorage.setItem(username, JSON.stringify({ email, password }));
-          alert("Sign up successful!");
-        
-          document.getElementById("signUp").reset();
+             }
+
+           
+            const data ={
+                userName : userName,
+                Email : email,
+                password : password,
+                cp : confirmPassword 
+            }
+            console.log(data)
+
+                  
+
+           
+    
+            
+
+            var userDetails =JSON.stringify(data);
+
+            localStorage.setItem('saveData',userDetails)
+
+             
+             
+
+            alert("SignUp successful")
+
+            document.getElementById("signUp").reset();;
         }
+    
+
         
-        
-        // signIn
-        
-        function signIn() {
-          const username = document.getElementById("signinUsername").value;
-          const password = document.getElementById("signinPassword").value;
-        
-          // Retrieve user data from local storage
-          const userData = JSON.parse(localStorage.getItem(username));
-        
-          if (userData && userData.password === password) {
-            alert("Sign in successful!");
-          } else {
-            alert("Invalid username or password!");
-          }
-        
-        
-          document.getElementById("signIn").reset();
+//   SignIn
+       document.getElementById('myModal2')
+    
+
+        .addEventListener('submit',function(event){
+        event.preventDefault()                
+        const userName = document.getElementById("signinUsername").value;
+        const password = document.getElementById("signinPassword").value;
+
+        var userDetails=JSON.parse(localStorage.getItem('saveData'))
+        console.log(userDetails)
+
+        if (userName !== userDetails.userName) {
+            alert("invaild username")
+            return;
         }
+        if (password !== userDetails.password) {
+            alert("invaild password")  
+            return;
+            }
+            
+                alert("SignIn successful")
+            
+
+
+             document.getElementById("signIn").reset();
+
+
+     })
         
-         
           
           
          
         
-               
-          </script>
+    </script>
         
         
 </body>

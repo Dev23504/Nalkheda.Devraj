@@ -63,10 +63,27 @@ a{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.history{
+    /* border: solid red 2px; */
+    /* border: solid; */
+    height: 33vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.his{
+    /* border: solid; */
+    width: 18%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
 .four{
 
-    /* border: solid; */
+    /* border: solid navy; */
     height: 100%;
     width: 100%;
     display: flex;
