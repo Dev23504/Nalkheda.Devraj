@@ -63,28 +63,28 @@ a{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.history{
-    border: solid red 2px;
+
+
+.histo{
     /* border: solid; */
-    height: 50%;
-    width: 50%;
+    height: auto;
+    width: 80%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
-.his{
-    border: solid;
-    width: 18%;
+.hist{
+    /* border: solid; */
+    width: 20%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 .four{
 
-    /* border: solid navy; */
-    height: 100%;
+    border: solid navy;
+    height: auto;
     width: 100%;
     display: flex;
     /* justify-content: space-around; */
@@ -93,9 +93,9 @@ a{
 }
 
 .mandir{
-    border: solid red 2px;
+    /* border: solid red 2px; */
     height: auto;
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -122,8 +122,8 @@ a{
 
 .visi{
     /* border: solid red 2px; */
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -133,17 +133,18 @@ a{
 
     .time{
         /* border: solid red 2px; */
-        height: 30vh;
-        width: 50vw;
+        height: auto;
+        width: auto;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
 
        
     }
    
 
     .visit{
-        /* border: solid red 2px; */
+        border: solid red 2px;
         height: 10vh;
         width:28%;
         text-align: center; 
@@ -155,7 +156,7 @@ a{
 
     .devi{
         /* border: solid red 2px; */
-        height: 50vh;
+        height: auto;
         width: 50%;
         display: flex;
         /* justify-content: center; */
@@ -167,7 +168,7 @@ a{
 
     .Deviji{
         /* border: solid red 2px;    */
-        height: 250px;
+        height: 200px;
         width: 250px;
         background-image: url(deviji.jpeg);
         background-repeat: no-repeat;
@@ -176,7 +177,7 @@ a{
     }
     .Devijii{
         /* border: solid red 2px;   */
-        height: 250px;
+        height: 200px;
         width: 250px;
         background-image: url(devijii.jpeg);
         background-repeat: no-repeat;
