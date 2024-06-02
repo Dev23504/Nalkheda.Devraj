@@ -64,17 +64,17 @@ a{
     flex-wrap: wrap;
 }
 .history{
-    /* border: solid red 2px; */
+    border: solid red 2px;
     /* border: solid; */
-    height: 33vh;
-    width: 55vw;
+    height: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     
 }
 .his{
-    /* border: solid; */
+    border: solid;
     width: 18%;
     height: auto;
     display: flex;
@@ -93,9 +93,9 @@ a{
 }
 
 .mandir{
-    /* border: solid red 2px; */
-    height: 100%;
-    width: 100%;
+    border: solid red 2px;
+    height: auto;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -188,7 +188,7 @@ a{
 
 .five{
         /* border: solid red 2px; */
-        height: 50%;
+        height: auto;
         width: 100%;
         display: flex;
         justify-content: space-around;
